@@ -350,6 +350,11 @@ let unit14Society = [
 ];
 
 
+let mod = [['гачкуватий ніс', 'hooked nose'], ['широкі плечі', 'broad shoulders'], ['світлий колір обличчя', 'fair complexion'], ['темні очі', 'dark eyes'], ['пухкі губи', 'full lips'], ['рожеві щоки', 'rosy cheeks'], ['колюче волосся', 'spiky hair'], ['овальне обличчя', 'oval face'], ['пухкі щоки', 'puffy cheeks'], ['веснянкувате обличчя', 'freckled face'], ['чиста шкіра', 'clear complexion'], ['запалі щоки', 'hollow cheeks'], ['бліда шкіра', 'pale complexion'], ['тонкі губи', 'thin lips'], ['задертий ніс', 'upturned nose'], 
+['густе волосся', 'thick hair'], ['плямиста шкіра', 'spotty complexion'], ['опустити щелепу', 'drop one’s jaw'], ['роздувати ніздрі', 'flare one’s nostrils'], ['схрестити руки', 'cross one’s arms'], ['стулити/стискати губи', 'purse one’s lips'], ['знизати плечима', 'shrug one’s shoulders'], ['підняти брови', 'raise one’s eyebrows'], ['довірливий', 'gullible'], ['надійний', 'trustworthy'], ['пристрасть', 'passion'], ['відволікати', 'distract'], ['збитися з курсу', 'sidetracked'], ['пригадувати', 'recollect'], ['приголомшений (обурений)', 'appalled'], 
+['в захваті (дуже схвильований)', 'exhilarated'], ['зкам’янілий від страху', 'petrified'], ['спустошений (дуже засмучений)', 'devastated'], ['нещасний', 'miserable'], ['материнський', 'maternal'], ['Овен', 'Aries'], ['наполегливий', 'assertive'], ['лютий (запеклий, агресивний)', 'fierce'], ['Телець', 'Taurus'], ['надлишок', 'excess'], ['насолоджуватися', 'revel'], ['кмітливий', 'quick-witted'], ['схилятися (до чогось)', 'incline'], ['заспокійливий', 'soothing'], ['бажання', 'desire'], ['дослідницький (проникливий)', 'probing']];
+
+
 let container = document.getElementById('container');
 
 let units = document.getElementById('units');
@@ -374,6 +379,7 @@ let btn11 = document.getElementById('btn11');
 let btn12 = document.getElementById('btn12');
 let btn13 = document.getElementById('btn13');
 let btn14 = document.getElementById('btn14');
+let btn15 = document.getElementById('btn15');
 
 
 let wordsArray;
@@ -470,6 +476,11 @@ btn13.onclick = function (event) {
 
 btn14.onclick = function (event) {
     wordsArray = unit14Society;
+    btnOnClick();
+}
+
+btn15.onclick = function (event) {
+    wordsArray = mod;
     btnOnClick();
 }
 
