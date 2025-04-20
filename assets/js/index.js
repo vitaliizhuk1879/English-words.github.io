@@ -350,10 +350,11 @@ let unit14Society = [
 ];
 
 
-let mod = [['гачкуватий ніс', 'hooked nose'], ['широкі плечі', 'broad shoulders'], ['світлий колір обличчя', 'fair complexion'], ['темні очі', 'dark eyes'], ['пухкі губи', 'full lips'], ['рожеві щоки', 'rosy cheeks'], ['колюче волосся', 'spiky hair'], ['овальне обличчя', 'oval face'], ['пухкі щоки', 'puffy cheeks'], ['веснянкувате обличчя', 'freckled face'], ['чиста шкіра', 'clear complexion'], ['запалі щоки', 'hollow cheeks'], ['бліда шкіра', 'pale complexion'], ['тонкі губи', 'thin lips'], ['задертий ніс', 'upturned nose'], 
-    ['густе волосся', 'thick hair'], ['плямиста шкіра', 'spotty complexion'], ['опустити щелепу', 'drop one’s jaw'], ['роздувати ніздрі', 'flare one’s nostrils'], ['схрестити руки', 'cross one’s arms'], ['стулити/стискати губи', 'purse one’s lips'], ['знизати плечима', 'shrug one’s shoulders'], ['підняти брови', 'raise one’s eyebrows'], ['довірливий', 'gullible'], ['надійний', 'trustworthy'], ['пристрасть', 'passion'], ['відволікати', 'distract'], ['збитися з курсу', 'sidetracked'], ['пригадувати', 'recollect'], ['приголомшений (обурений)', 'appalled'], 
-    ['в захваті (дуже схвильований)', 'exhilarated'], ['зкам’янілий від страху', 'petrified'], ['спустошений (дуже засмучений)', 'devastated'], ['нещасний', 'miserable'], ['материнський', 'maternal'], ['Овен', 'Aries'], ['наполегливий', 'assertive'], ['лютий (запеклий, агресивний)', 'fierce'], ['Телець', 'Taurus'], ['надлишок', 'excess'], ['насолоджуватися', 'revel'], ['кмітливий', 'quick-witted'], ['схилятися (до чогось)', 'incline'], ['заспокійливий', 'soothing'], ['бажання', 'desire'], ['дослідницький (проникливий)', 'probing'],
-    ['обманювати', 'deceive'], ['належний', 'due'], ['жадібність', 'greed'], ['перехитрити', 'outfox'], ['рідко', 'seldom'], ['заручений / зайнятий / залучений', 'engaged']
+let mod = [['гачкуватий ніс', 'hooked nose'], ['широкі плечі', 'broad shoulders'], ['світлий колір обличчя', 'fair complexion'], ['темні очі', 'dark eyes'], ['пухкі губи', 'full lips'], ['рожеві щоки', 'rosy cheeks'], ['колюче волосся', 'spiky hair'], ['овальне обличчя', 'oval face'], ['пухкі щоки', 'puffy cheeks'], ['веснянкувате обличчя', 'freckled face'], ['чиста шкіра', 'clear complexion'], ['запалі щоки', 'hollow cheeks'], ['бліда шкіра', 'pale complexion'], ['тонкі губи', 'thin lips'], ['задертий ніс', 'upturned nose'],
+['густе волосся', 'thick hair'], ['плямиста шкіра', 'spotty complexion'], ['опустити щелепу', 'drop one’s jaw'], ['роздувати ніздрі', 'flare one’s nostrils'], ['схрестити руки', 'cross one’s arms'], ['стулити/стискати губи', 'purse one’s lips'], ['знизати плечима', 'shrug one’s shoulders'], ['підняти брови', 'raise one’s eyebrows'], ['довірливий', 'gullible'], ['надійний', 'trustworthy'], ['пристрасть', 'passion'], ['відволікати', 'distract'], ['збитися з курсу', 'sidetracked'], ['пригадувати', 'recollect'], ['приголомшений (обурений)', 'appalled'],
+['в захваті (дуже схвильований)', 'exhilarated'], ['зкам’янілий від страху', 'petrified'], ['спустошений (дуже засмучений)', 'devastated'], ['нещасний', 'miserable'], ['материнський', 'maternal'], ['Овен', 'Aries'], ['наполегливий', 'assertive'], ['лютий (запеклий, агресивний)', 'fierce'], ['Телець', 'Taurus'], ['надлишок', 'excess'], ['насолоджуватися', 'revel'], ['кмітливий', 'quick-witted'], ['схилятися (до чогось)', 'incline'], ['заспокійливий', 'soothing'], ['бажання', 'desire'], ['дослідницький (проникливий)', 'probing'],
+['обманювати', 'deceive'], ['належний', 'due'], ['жадібність', 'greed'], ['перехитрити', 'outfox'], ['рідко', 'seldom'], ['заручений / зайнятий / залучений', 'engaged'], ['іній / мороз', 'frost'], ['порив (вітру)', 'gust'], ['мокрий сніг', 'sleet'], ['злітати / стрімко підніматися', 'soar'], ['мряка / дрібний дощ', 'drizzle'], ['легкий туман', 'mist'], ['злива', 'downpour'], ['туман', 'fog'], ['вологість', 'humidity'], ['грім', 'thunder'], ['переслідувати', 'chase'], ['виверження', 'eruption'], ['укриття', 'shelters'],
+['шторми / сильні вітри', 'gales'], ['забороняти', 'forbid'], ['угода', 'treaty']
 ];
 
 
@@ -399,7 +400,7 @@ function getCloneArr(arr) {
 }
 
 
-function btnOnClick () {
+function btnOnClick() {
     units.style.display = 'none';
     upper_block.style.display = 'flex';
     lower_block.style.display = 'flex';
@@ -407,7 +408,7 @@ function btnOnClick () {
     container.style.height = '100vh';
 
     flag = true;
-    
+
     saveArr = getCloneArr(wordsArray);
 }
 
@@ -511,10 +512,10 @@ document.addEventListener('keyup', event => {
 
             upper_block_text.textContent = 'The end';
             lower_block_text.textContent = '';
-    
+
             wordsArray = getCloneArr(saveArr);
         }
-    } 
+    }
 
     if (event.code === "ShiftRight") {
         lower_block_text.style.opacity = 1;
@@ -546,7 +547,7 @@ upper_block.addEventListener('touchend', event => {
 
             upper_block_text.textContent = 'The end';
             lower_block_text.textContent = '';
-    
+
             wordsArray = getCloneArr(saveArr);
         }
 
