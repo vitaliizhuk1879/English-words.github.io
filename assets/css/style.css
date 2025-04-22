@@ -52,6 +52,29 @@ body {
 }
 
 
+/* choose lan */
+.choose_lan {
+    display: none;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.choose_lan_btn {
+    width: 350px;
+    min-height: 30px;
+    margin-bottom: 10px;
+
+    background-color: inherit;
+    border: 1px solid #4a4d51;
+    border-radius: 7px;
+
+    font-family: "Poppins", sans-serif;
+    color: #cbd0d6;
+    cursor: pointer;
+}
+
+
 /* contents */
 
 .upper_block {
@@ -70,7 +93,6 @@ body {
 .upper_block_text {
     font-family: "Poppins", sans-serif;
 
-    font-size: 39px;
     color: #cbd0d6;
     font-weight: 400;
     text-align: center;
@@ -88,7 +110,6 @@ body {
 .lower_block_text {
     font-family: "Poppins", sans-serif;
 
-    font-size: 35px;
     color: #cbd0d6;
     font-weight: 400;
     text-align: center;
@@ -98,7 +119,12 @@ body {
 @media (min-width: 900px) {
     .unit:hover {
         border-color: white;
-        color: white
+        color: white;
+    }
+
+    .choose_lan_btn:hover {
+        border-color: white;
+        color: white;
     }
 }
 

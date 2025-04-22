@@ -362,6 +362,8 @@ let container = document.getElementById('container');
 
 let units = document.getElementById('units');
 
+let chooseLan = document.getElementById('choose_lan');
+
 let upper_block = document.getElementById('upper_block');
 let lower_block = document.getElementById('lower_block');
 
@@ -384,7 +386,6 @@ let btn13 = document.getElementById('btn13');
 let btn14 = document.getElementById('btn14');
 let btn15 = document.getElementById('btn15');
 
-
 let wordsArray;
 let saveArr;
 
@@ -402,8 +403,8 @@ function getCloneArr(arr) {
 
 function btnOnClick() {
     units.style.display = 'none';
-    upper_block.style.display = 'flex';
-    lower_block.style.display = 'flex';
+
+    chooseLan.style.display = 'flex';
 
     container.style.height = '100vh';
 
@@ -488,6 +489,41 @@ btn15.onclick = function (event) {
 }
 
 
+let choose_lan_btn_ua = document.getElementById('choose_lan_btn_ua');
+let choose_lan_btn_en = document.getElementById('choose_lan_btn_en');
+
+let firstWord;
+let secondWord;
+
+choose_lan_btn_ua.onclick = function (event) {
+    firstWord = 0;
+    secondWord = 1;
+
+    upper_block_text.style.fontSize = '39px';
+    lower_block_text.style.fontSize = '35px';
+
+    lanBtnOnclick();
+}
+
+choose_lan_btn_en.onclick = function (event) {
+    firstWord = 1;
+    secondWord = 0;
+
+    upper_block_text.style.fontSize = '35px';
+    lower_block_text.style.fontSize = '39px';
+
+    lanBtnOnclick();
+}
+
+
+function lanBtnOnclick () {
+    upper_block.style.display = 'flex';
+    lower_block.style.display = 'flex';
+
+    chooseLan.style.display = 'none';
+}
+
+
 document.addEventListener('keyup', event => {
 
     if (event.code === 'Enter') {
@@ -505,8 +541,8 @@ document.addEventListener('keyup', event => {
 
             let deleteWord = wordsArray.splice(randomNum, 1)[0];
 
-            upper_block_text.textContent = deleteWord[0];
-            lower_block_text.textContent = deleteWord[1];
+            upper_block_text.textContent = deleteWord[firstWord];
+            lower_block_text.textContent = deleteWord[secondWord];
 
         } else {
 
