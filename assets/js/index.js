@@ -576,8 +576,8 @@ upper_block.addEventListener('touchend', event => {
 
             deleteWord = wordsArray.splice(randomNum, 1)[0];
 
-            upper_block_text.textContent = deleteWord[0];
-            lower_block_text.textContent = deleteWord[1];
+            upper_block_text.textContent = deleteWord[firstWord];
+            lower_block_text.textContent = deleteWord[secondWord];
 
         } else {
 
