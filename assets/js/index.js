@@ -559,7 +559,7 @@ document.addEventListener('keyup', event => {
 });
 
 
-upper_block.addEventListener('toucmove', event => {
+upper_block.addEventListener('toucend', event => {
 
     if (flag === true) {
 
