@@ -73,7 +73,7 @@ let unit4Work = [
     ['адміністратор', 'receptionist'], ['менеджер з продажу', 'sales manager / director'], ['торговий представник', 'sales representative'], ['продавець', 'salesman/saleswoman'], ['продавець, консультант', 'salesperson / shop assistant'], ['секретар', 'secretary'], ['хірург', 'surgeon'],
     ['вчитель', 'teacher'], ['контролер', 'ticket inspector'], ['туристичний агент', 'travel agent'], ['ветеринар', 'vet'], ['офіціант/офіціантка', 'waiter/waitress'],
     ['безперспективна робота', 'a dead-end job'], ['робота на повний робочий день/неповний робочий день', 'a full-time/part-time job'], ['високооплачувана робота', 'a highly-paid/well-paid job'], ['робота на канікулах', 'a holiday job'], ['перспективна робота', 'a job with a future'], ['низькооплачувана робота', 'a low-paid/badly-paid job'], ['постійна робота', 'a permanent/steady job'],
-    ['тимчасова робота', 'a temporary job'], ['додаткова робота', 'an extra job'], ['сезонна робота', 'seasonal work'], ['work: stressful/physical/mental/ dangerous/tiring/back-breaking/monotonous', 'робота: напружена, фізична, розумова, небезпечна, виснажлива, монотонна'],
+    ['тимчасова робота', 'a temporary job'], ['додаткова робота', 'an extra job'], ['сезонна робота', 'seasonal work'], ['робота: напружена, фізична, розумова, небезпечна, виснажлива, монотонна', 'work: stressful/physical/mental/ dangerous/tiring/back-breaking/monotonous'],
     ['хороша робота', 'good job'], ['найкраща робота', 'ideal job'], ['робота, що задовольняє', 'satisfying job'], ['відповідальна робота', 'responsible job'], ['прибуткова робота', 'profitable job'], ['нудна праця', 'boring work/job'], ['цікава праця', 'interesting work/job'], ['захоплива праця', 'fascinating work/job'], ['легка праця', 'easy work/job'], ['важка праця', 'difficult work/job'],
     ['кваліфікована праця', 'skilled work/job'], ['малокваліфікована праця', 'semi-skilled work/job'], ['некваліфікована праця', 'unskilled work/job'], ['праця, що віднімає багато часу', 'time-consuming work/job'],
     ['скасувати зустріч', 'cancel an appointment'], ['виконувати канцелярську роботу', 'do clerical work'], ['виконувати офісну роботу', 'do office work'], ['Я керівник (відповідальний за) десятьох людей.', 'I\'m in charge of ten other people.'], ['Це не входить у мої обовʼязки.', 'It\'s not my responsibility.'], ['назначати зустріч', 'make an appointment'], ['В мої обовʼязки входить друкувати листи.', 'My duties include typing letters.'],
@@ -516,7 +516,7 @@ choose_lan_btn_en.onclick = function (event) {
 }
 
 
-function lanBtnOnclick () {
+function lanBtnOnclick() {
     upper_block.style.display = 'flex';
     lower_block.style.display = 'flex';
 
