@@ -501,7 +501,7 @@ choose_lan_btn_ua.onclick = function (event) {
 
     if (window.screen.width < 575) {
         upper_block_text.style.fontSize = '30px';
-        lower_block_text.style.fontSize = '26px';
+        lower_block_text.style.fontSize = '28px';
     } else {
         upper_block_text.style.fontSize = '39px';
         lower_block_text.style.fontSize = '35px';
@@ -515,7 +515,7 @@ choose_lan_btn_en.onclick = function (event) {
     secondWord = 0;
 
     if (window.screen.width < 575) {
-        upper_block_text.style.fontSize = '26px';
+        upper_block_text.style.fontSize = '28px';
         lower_block_text.style.fontSize = '30px';
     } else {
         upper_block_text.style.fontSize = '35px';
