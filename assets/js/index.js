@@ -499,8 +499,13 @@ choose_lan_btn_ua.onclick = function (event) {
     firstWord = 0;
     secondWord = 1;
 
-    upper_block_text.style.fontSize = '39px';
-    lower_block_text.style.fontSize = '35px';
+    if (window.screen.width < 575) {
+        upper_block_text.style.fontSize = '20px';
+        lower_block_text.style.fontSize = '18px';
+    } else {
+        upper_block_text.style.fontSize = '39px';
+        lower_block_text.style.fontSize = '35px';
+    }
 
     lanBtnOnclick();
 }
@@ -509,8 +514,13 @@ choose_lan_btn_en.onclick = function (event) {
     firstWord = 1;
     secondWord = 0;
 
-    upper_block_text.style.fontSize = '35px';
-    lower_block_text.style.fontSize = '39px';
+    if (window.screen.width < 575) {
+        upper_block_text.style.fontSize = '18px';
+        lower_block_text.style.fontSize = '20px';
+    } else {
+        upper_block_text.style.fontSize = '35px';
+        lower_block_text.style.fontSize = '39px';
+    }
 
     lanBtnOnclick();
 }

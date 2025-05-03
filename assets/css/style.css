@@ -152,7 +152,6 @@ body {
 
     .upper_block_text {
         width: 70%;
-        font-size: 30px;
     }
 
     .lower_block {
@@ -162,6 +161,5 @@ body {
 
     .lower_block_text {
         width: 70%;
-        font-size: 28px;
     }
 }
