@@ -399,7 +399,7 @@ function btnOnClick() {
 
     chooseLan.style.display = 'flex';
 
-    container.style.height = '100vh';
+    container.style.height = '100%';
 
     flag = true;
 
