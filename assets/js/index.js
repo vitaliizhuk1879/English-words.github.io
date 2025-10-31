@@ -357,6 +357,8 @@ let units = document.getElementById('units');
 
 let chooseLan = document.getElementById('choose_lan');
 
+let body = document.body;
+
 let upper_block = document.getElementById('upper_block');
 let lower_block = document.getElementById('lower_block');
 
@@ -399,7 +401,9 @@ function btnOnClick() {
 
     chooseLan.style.display = 'flex';
 
-    container.style.height = '100%';
+    container.style.height = '100vh';
+
+    body.style.overflowY = 'hidden';
 
     flag = true;
 
