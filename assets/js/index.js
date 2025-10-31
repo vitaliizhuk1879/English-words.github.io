@@ -403,8 +403,6 @@ function btnOnClick() {
 
     container.style.height = '100vh';
 
-    body.style.overflowY = 'hidden';
-
     flag = true;
 
     saveArr = getCloneArr(wordsArray);
