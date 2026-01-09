@@ -363,7 +363,7 @@ let unit15PhrasalVerbs = [
 ];
 
 
-let unit15PhrasalVerbs2 = [
+let unit16PhrasalVerbs2 = [
     ['переглядати / вивчати', 'look over'], ['шукати / заскакувати', 'look up'], ['втекти / розтратити', 'make away'], ['прямувати до', 'make for'], ['втекти / вкрасти', 'make off'], ['розуміти / складати', 'make out'], ['вигадувати / миритися / складати', 'make up'], ['в’їжджати / втручатися', 'move in'], ['рухатися далі / прогресувати', 'move on'], ['виїжджати', 'move out'], ['померти', 'pass away'], ['передавати у спадок', 'pass down'], ['видавати за / минати', 'pass off'], ['непритомніти / роздавати', 'pass out'], ['підбирати / пожвавлюватися', 'pick up'], ['вказувати / звертати увагу', 'point out'], 
     ['рвонути / віддалятися', 'pull away'], ['досягти успіху / знімати', 'pull off'], ['підтримувати дружбу', 'pull on'], ['виходити / відмовлятися', 'pull out'], ['зупинятися / покращуватися', 'pull up'], ['відкладати / економити', 'put aside'], ['прибирати / відкладати гроші', 'put away'], ['пригнічувати / записувати', 'put down'], ['встановлювати / докладати зусиль', 'put in'], ['надягати / вмикати', 'put on'], ['гасити / випускати', 'put out'], ['будувати / терпіти', 'put up'], ['тікати / виходити з-під контролю', 'run away'], ['натрапити / зіткнутися', 'run into'], ['тікати / спливати', 'run off'], ['тягнутися / базікати', 'run on'], 
     ['закінчуватися / вичерпуватися', 'run out'], ['збивати / переглядати', 'run over'], ['братися за / починати', 'set about'], ['відкладати / ігнорувати', 'set aside'], ['затримувати / коштувати', 'set back'], ['записувати / висаджувати', 'set down'], ['вирушати / спричиняти', 'set off'], ['засновувати / підставляти', 'set up'], ['вгамуватися / осісти', 'settle down'], ['обжитися / звикнути', 'settle in'], ['відправляти швидко', 'shoot off'], ['вистрілювати / вигукувати', 'shoot out'], ['хвалитися / виставляти напоказ', 'show off'], ['з’являтися / викривати', 'show up'], ['ізолювати / зачиняти', 'shut away'], ['закривати / вимикати', 'shut down'], 
@@ -371,8 +371,23 @@ let unit15PhrasalVerbs2 = [
     ['ізолювати / зачиняти', 'shut in'], ['вимикати / перекривати', 'shut off'], ['змусити замовкнути', 'shut up'], ['розслаблятися', 'sit back'], ['сідати / миритися', 'sit down'], ['страйкувати / замінювати', 'sit in'], ['сидіти прямо / не спати', 'sit up'], ['розподіляти / розростатися', 'spread out'], ['відійти вбік', 'stand aside'], ['бути напоготові / підтримувати', 'stand by'], ['виділятися / не здаватися', 'stand out'], ['вставати / захищати', 'stand up'], ['стирчати / наполягати', 'stick out'], ['вимикати / притупляти', 'switch off'], ['вмикати / збуджувати', 'switch on'], ['забирати / віднімати', 'take away'], ['забирати назад / визнавати помилку', 'take back'], 
     ['розуміти / обманювати', 'take in'], ['злітати / знімати', 'take off'], ['братися за / приймати виклик', 'take on'], ['виймати / запрошувати', 'take out'], ['братися / займати місце', 'take up'], ['переймати / захоплювати', 'take over'], ['блювати / зводити нашвидку', 'throw up'], ['відвертати / проганяти', 'turn away'], ['повертатися назад', 'turn back'], ['відхиляти / зменшувати', 'turn down'], ['перетворюватися', 'turn into'], ['вимикати / відбивати інтерес', 'turn off'], ['вмикати / збуджувати', 'turn on'], ['виявлятися / виробляти', 'turn out'], ['перевертати / змінювати', 'turn over'], ['з’являтися / посилювати', 'turn up'], 
     ['розвертатися / поліпшуватися', 'turn around'], ['прокидатися / усвідомлювати', 'wake up'], ['ходити / обговорювати', 'walk around'], ['піти / ухилитися', 'walk away'], ['повертатися пішки', 'walk back'], ['входити / застати зненацька', 'walk in'], ['відійти / позбутися', 'walk off'], ['йти на протест / кидати', 'walk out'], ['перемагати легко', 'walk over'], ['підійти ближче', 'walk up'], ['стерегтися', 'watch out'], ['закінчувати / доводити', 'wind up'], ['працювати / тренуватися', 'work out'], ['розвивати / домагатися', 'work up'], ['записувати / списувати', 'write down']
+];
 
-]
+
+let unit17IrregularVerbs = [
+    ['бути', 'be — was/were — been'], ['ставати', 'become — became — become'], ['починати', 'begin — began — begun'], ['ламати', 'break — broke — broken'], ['приносити', 'bring — brought — brought'], ['будувати', 'build — built — built'], ['купувати', 'buy — bought — bought'], ['ловити', 'catch — caught — caught'], ['вибирати', 'choose — chose — chosen'], ['приходити', 'come — came — come'], ['коштувати', 'cost — cost — cost'], ['різати', 'cut — cut — cut'], ['робити', 'do — did — done'], ['малювати', 'draw — drew — drawn'], ['пити', 'drink — drank — drunk'], ['керувати', 'drive — drove — driven'], ['їсти', 'eat — ate — eaten'], ['падати', 'fall — fell — fallen'], 
+    ['відчувати', 'feel — felt — felt'], ['битися', 'fight — fought — fought'], ['знаходити', 'find — found — found'], ['літати', 'fly — flew — flown'], ['забувати', 'forget — forgot — forgotten'], ['прощати', 'forgive — forgave — forgiven'], ['замерзати', 'freeze — froze — frozen'], ['отримувати', 'get — got — got/gotten'], ['давати', 'give — gave — given'], ['йти', 'go — went — gone'], ['рости', 'grow — grew — grown'], ['висіти', 'hang — hung — hung'], ['мати', 'have — had — had'], ['чути', 'hear — heard — heard'], ['ховати', 'hide — hid — hidden'], ['бити', 'hit — hit — hit'], ['тримати', 'hold — held — held'], ['ранити', 'hurt — hurt — hurt'], ['зберігати', 'keep — kept — kept'], 
+    ['знати', 'know — knew — known'], ['класти', 'lay — laid — laid'], ['вести', 'lead — led — led'], ['залишати', 'leave — left — left'], ['позичати', 'lend — lent — lent'], ['дозволяти', 'let — let — let'], ['лежати', 'lie — lay — lain'], ['втрачати', 'lose — lost — lost'], ['робити', 'make — made — made'], ['означати', 'mean — meant — meant'], ['зустрічати', 'meet — met — met'], ['платити', 'pay — paid — paid'], ['класти', 'put — put — put'], ['читати', 'read — read — read'], ['їхати верхи', 'ride — rode — ridden'], ['дзвонити', 'ring — rang — rung'], ['підніматися', 'rise — rose — risen'], ['бігти', 'run — ran — run'], ['казати', 'say — said — said'], ['бачити', 'see — saw — seen'], 
+    
+    ['продавати', 'sell — sold — sold'], ['надсилати', 'send — sent — sent'], ['встановлювати', 'set — set — set'], ['трясти', 'shake — shook — shaken'], ['світити', 'shine — shone — shone'], ['стріляти', 'shoot — shot — shot'], ['показувати', 'show — showed — shown'], ['закривати', 'shut — shut — shut'], ['співати', 'sing — sang — sung'], ['сидіти', 'sit — sat — sat'], ['спати', 'sleep — slept — slept'], ['говорити', 'speak — spoke — spoken'], ['витрачати', 'spend — spent — spent'], ['стояти', 'stand — stood — stood'], ['красти', 'steal — stole — stolen'], ['липнути', 'stick — stuck — stuck'], ['плавати', 'swim — swam — swum'], ['брати', 'take — took — taken'], 
+    ['вчити', 'teach — taught — taught'], ['рвати', 'tear — tore — torn'], ['розповідати', 'tell — told — told'], ['думати', 'think — thought — thought'], ['кидати', 'throw — threw — thrown'], ['розуміти', 'understand — understood — understood'], ['прокидатися', 'wake — woke — woken'], ['носити', 'wear — wore — worn'], ['перемагати', 'win — won — won'], ['писати', 'write — wrote — written'], ['виникати', 'arise — arose — arisen'], ['бити', 'beat — beat — beaten'], ['гнути', 'bend — bent — bent'], ['ставити ставку', 'bet — bet — bet'], ['звʼязувати', 'bind — bound — bound'], ['кровоточити', 'bleed — bled — bled'], ['дути', 'blow — blew — blown'], ['лопатися', 'burst — burst — burst'], 
+    ['повзти', 'creep — crept — crept'], ['мати справу', 'deal — dealt — dealt'], ['копати', 'dig — dug — dug'], ['годувати', 'feed — fed — fed'], ['тікати', 'flee — fled — fled'], ['забороняти', 'forbid — forbade — forbidden'], ['прогнозувати', 'forecast — forecast — forecast'], ['молоти', 'grind — ground — ground'], ['ставати на коліна', 'kneel — knelt — knelt'], ['запалювати', 'light — lit — lit'], ['долати', 'overcome — overcame — overcome'], ['наздоганяти', 'overtake — overtook — overtaken'], ['доводити', 'prove — proved — proven'], ['залишати', 'quit — quit — quit'], ['шити', 'sew — sewed — sewn'], ['скорочуватися', 'shrink — shrank — shrunk'], ['тонути', 'sink — sank — sunk'], 
+    
+    ['ковзати', 'slide — slid — slid'], ['пахнути', 'smell — smelt — smelt'], ['сіяти', 'sow — sowed — sown'], ['стрибати', 'spring — sprang — sprung'], ['прагнути', 'strive — strove — striven'], ['клястися', 'swear — swore — sworn'], ['підмітати', 'sweep — swept — swept'], ['набрякати', 'swell — swelled — swollen'], ['штовхати', 'thrust — thrust — thrust'], ['ступати', 'tread — trod — trodden'], ['зазнавати', 'undergo — underwent — undergone'], ['засмучувати', 'upset — upset — upset'], ['плакати', 'weep — wept — wept'], ['крутити', 'wind — wound — wound'], ['відкликати', 'withdraw — withdrew — withdrawn'], ['викручувати', 'wring — wrung — wrung'], ['транслювати', 'broadcast — broadcast — broadcast'], 
+    ['кидати', 'cast — cast — cast'], ['чіплятися', 'cling — clung — clung'], ['наважуватися', 'dare — dared — dared'], ['переплітати', 'interweave — interwove — interwoven'], ['вводити в оману', 'mislead — misled — misled'], ['перевищувати ліміт', 'overdraw — overdrew — overdrawn'], ['перебудовувати', 'rebuild — rebuilt — rebuilt'], ['перезапускати', 'reset — reset — reset'], ['відбиватися', 'rebind — rebound — rebound'], ['різати', 'slit — slit — slit'], ['ділити', 'split — split — split'], ['псувати', 'spoil — spoilt — spoilt'], ['жалити', 'sting — stung — stung'], ['крокувати', 'stride — strode — stridden'], ['ударяти', 'strike — struck — struck'], ['споглядати', 'behold — beheld — beheld'], 
+    ['підходити', 'fit — fit — fit'], ['вводити дані', 'input — input — input'], ['виводити дані', 'output — output — output']
+];
+
 
 
 let container = document.getElementById('container');
@@ -405,6 +420,7 @@ let btn13 = document.getElementById('btn13');
 let btn14 = document.getElementById('btn14');
 let btn15 = document.getElementById('btn15');
 let btn16 = document.getElementById('btn16');
+let btn17 = document.getElementById('btn17');
 
 
 let wordsArray;
@@ -510,7 +526,12 @@ btn15.onclick = function (event) {
 }
 
 btn16.onclick = function (event) {
-    wordsArray = unit15PhrasalVerbs2;
+    wordsArray = unit16PhrasalVerbs2;
+    btnOnClick();
+}
+
+btn17.onclick = function (event) {
+    wordsArray = unit17IrregularVerbs;
     btnOnClick();
 }
 
