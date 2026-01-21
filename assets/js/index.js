@@ -425,6 +425,12 @@ let wordsArray;
 let saveArr;
 
 
+const clientWidth = document.documentElement.clientWidth;
+if (clientWidth <= 575) {
+    upper_block_text.textContent = 'Tap here';
+}
+
+
 function getCloneArr(arr) {
     let cloneArr = [];
 
@@ -647,3 +653,4 @@ upper_block.addEventListener('touchend', event => {
         });
     }
 });
+
