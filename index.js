@@ -654,3 +654,11 @@ upper_block.addEventListener('touchend', event => {
     }
 });
 
+
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js")
+    .then(() => console.log("Service Worker зареєстрований"))
+    .catch(err => console.log("SW помилка:", err));
+}
+
