@@ -165,7 +165,7 @@ body {
 
 
 @supports (-webkit-touch-callout: none) {
-  .main {
+  .container {
     min-height: -webkit-fill-available;
   }
 }
