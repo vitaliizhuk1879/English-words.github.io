@@ -162,10 +162,3 @@ body {
         width: 70%;
     }
 }
-
-
-@supports (-webkit-touch-callout: none) {
-  .container {
-    min-height: -webkit-fill-available;
-  }
-}
