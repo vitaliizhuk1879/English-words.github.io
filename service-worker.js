@@ -4,7 +4,7 @@ const FILES = [
   "./",
   "index.html",
   "style.css",
-  "script.js"
+  "index.js"
 ];
 
 self.addEventListener("install", event => {
