@@ -387,6 +387,21 @@ let unit17IrregularVerbs = [
 ];
 
 
+let unit18Dispatcher = [
+    ['диспетчеризація', 'Dispatch'], ['диспетчер', 'Dispatcher'], ['перевізник', 'Carrier'], ['вантажовідправник', 'Shipper'], ['брокер', 'Broker'], ['вантажоотримувач', 'Consignee'], ['вантаж / рейс', 'Load'], ['вантаж (товар)', 'Freight'], ['відправлення', 'Shipment'], ['доставка', 'Delivery'], ['завантаження', 'Pickup'], ['розвантаження', 'Drop-off'], ['маршрут', 'Route'], ['графік', 'Schedule'], ['призначений час', 'Appointment'], ['термінал', 'Terminal'], ['склад', 'Warehouse'], ['рампа', 'Dock'], ["об'єкт / підприємство", 'Facility'], ['коносамент / товарно-транспортна накладна', 'Bill of Lading (BOL)'], ['підтвердження ставки', 'Rate confirmation'], ['рахунок-фактура', 'Invoice'], 
+    ['підтвердження доставки', 'Proof of Delivery (POD)'], ['угода', 'Agreement'], ['контракт', 'Contract'], ['дозвіл', 'Permit'], ['ліцензія', 'License'], ['страхування', 'Insurance'], ['страховий поліс', 'Policy'], ['додаткова умова', 'Endorsement'], ['квитанція', 'Receipt'], ['звіт про простій', 'Detention report'], ['квитанція за розвантаження', 'Lumper receipt'], ['талон з вагової', 'Scale ticket'], ['звіт про перевірку', 'Inspection report'], ['претензія', 'Claim'], ['розрахунок / врегулювання', 'Settlement'], ['звіт / виписка', 'Statement'], ['підтвердження', 'Confirmation'], ['орієнтовний час прибуття', 'ETA'], ['орієнтовний час відправлення', 'ETD'], ['час у дорозі', 'Transit time'], 
+    ['порожній пробіг', 'Deadhead'], ['вимушена стоянка', 'Layover'], ['зворотний вантаж', 'Backhaul'], ['напрямок перевезення', 'Lane'], ['зупинка', 'Stop'], ['кілька зупинок', 'Multi-stop'], ['передача рейсу іншому водію', 'Relay'], ['переміщення', 'Reposition'], ['змінити маршрут', 'Reroute'], ['відстеження', 'Tracking'], ['GPS-навігація', 'GPS'], ['миля', 'Mile'], ['відстань', 'Distance'], ['кордон', 'Border'], ['митниця', 'Customs'], ['перевірка', 'Inspection'], ['вагова станція', 'Weigh station'], ['тентований причіп', 'Dry van'], ['рефрижератор', 'Reefer'], ['платформа', 'Flatbed'], ['низькорамна платформа', 'Step deck'], ['вантажівка з кузовом', 'Box truck'], ['причіп', 'Trailer'], 
+    
+    ['тягач', 'Tractor'], ['сідельний тягач', 'Semi-truck'], ['здвоєна вісь', 'Tandem'], ['вісь', 'Axle'], ['вантаж', 'Cargo'], ['палета', 'Pallet'], ['піддон', 'Skid'], ['ящик', 'Crate'], ['небезпечний вантаж', 'Hazmat'], ['негабаритний', 'Oversized'], ['перевантажений', 'Overweight'], ['пломба', 'Seal'], ['ремінь для кріплення', 'Strap'], ['паливо', 'Fuel'], ['паливна карта', 'Fuel card'], ['техобслуговування', 'Maintenance'], ['поломка', 'Breakdown'], ['ремонт', 'Repair'], ['шина', 'Tire'], ['двигун', 'Engine'], ['трансмісія', 'Transmission'], ['холостий хід', 'Idle'], ['платна дорога', 'Toll'], ['паркування', 'Parking'], ['зона відпочинку', 'Rest area'], ['ваги', 'Scale'], 
+    ['штраф / квитанція', 'Ticket'], ['порушення', 'Violation'], ['штраф', 'Citation'], ['штраф', 'Fine'], ['інспекція', 'Inspection'], ['аварія', 'Accident'], ['інцидент', 'Incident'], ['ставка', 'Rate'], ['ставка за милю', 'RPM'], ['оплата', 'Payment'], ['депозит', 'Deposit'], ['факторинг', 'Factoring'], ['комісія', 'Fee'], ['нарахування', 'Charge'], ['додаткова оплата', 'Accessorial'], ['простій', 'Detention'], ['оплата простою', 'Layover pay'], ['компенсація за скасований рейс', 'TONU'], ['фіксована сума', 'Lump sum'], ['кредит / зарахування', 'Credit'], ['дебет / списання', 'Debit'], ['баланс', 'Balance'], ['дохід', 'Revenue'], ['витрати', 'Expense'], ['прибуток', 'Profit'], ['фінальний розрахунок', 'Settlement'], 
+    ['комісія', 'Commission'], ['дзвінок', 'Call'], ['оновлення інформації', 'Update'], ['повідомляти', 'Notify'], ['підтверджувати', 'Confirm'], ['звітувати', 'Report'], ['відповідати', 'Respond'], ['запит', 'Request'], ['схвалювати', 'Approve'], ['відхиляти', 'Decline'], ['вести переговори', 'Negotiate'], ['уточнювати', 'Clarify'], ['інформувати', 'Inform'], ['нагадувати', 'Remind'], ['передати керівництву', 'Escalate'], ['нагадати повторно', 'Follow up'], ["зв’язатися", 'Check in'], ['очікування', 'Hold'], ['переадресувати', 'Transfer'], ['повідомлення', 'Message'], ['призначати', 'Assign'], ['бронювати', 'Book'], ['скасовувати', 'Cancel'], ['переносити', 'Reschedule'], ['відправляти в рейс', 'Dispatch'], 
+    
+    ['біржа вантажів', 'Load board'], ['платформа DAT', 'DAT'], ['платформа Truckstop', 'Truckstop'], ['доступний транспорт', 'Capacity'], ['доступність', 'Availability'], ['статус', 'Status'], ['у дорозі', 'In transit'], ['доставлено', 'Delivered'], ['завершено', 'Completed'], ['в очікуванні', 'Pending'], ['призупинено', 'On hold'], ['доступний', 'Available'], ['недоступний', 'Unavailable'], ['поломка', 'Breakdown'], ['затримка', 'Delay'], ['департамент транспорту США', 'DOT'], ['федеральна служба безпеки автоперевезень', 'FMCSA'], ['відповідність вимогам', 'Compliance'], ['правило / норма', 'Regulation'], ['безпека', 'Safety'], ['журнал водія', 'Logbook'], ['електронний логбук', 'ELD'], 
+    ['норми робочого часу', 'Hours of Service'], ['перевірка', 'Audit'], ['ліцензійний дозвіл', 'Authority'], ['номер перевізника', 'MC number'], ['номер DOT', 'USDOT number'], ['сертифікація', 'Certification'], ['перевірка біографії', 'Background check'], ['тест на наркотики', 'Drug test'], ['відповідальність', 'Liability'], ['страхове покриття', 'Coverage'], ['пакет документів брокера', 'Broker packet'], ['пакет документів перевізника', 'Carrier packet'], ['підключення перевізника', 'Onboarding'], ['реєстрація', 'Setup'], ['закріплений маршрут', 'Dedicated'], ['разовий вантаж', 'Spot load'], ['контрактний вантаж', 'Contract load'], ['ринок перевезень', 'Freight market'], ['ринкова ставка', 'Spot rate'], 
+    ['ставка (пропозиція)', 'Bid'], ['пропозиція рейсу', 'Tender'], ['прийняття', 'Acceptance'], ['відмова', 'Rejection'], ['претензія', 'Claim'], ['нестача', 'Shortage'], ['пошкодження', 'Damage'], ['завищена оплата', 'Overcharge'], ['коригування', 'Adjustment'], ['повернення коштів', 'Refund'], ['гарантія', 'Guarantee']
+];
+
+
 
 let container = document.getElementById('container');
 
@@ -419,6 +434,7 @@ let btn14 = document.getElementById('btn14');
 let btn15 = document.getElementById('btn15');
 let btn16 = document.getElementById('btn16');
 let btn17 = document.getElementById('btn17');
+let btn18 = document.getElementById('btn18');
 
 
 let wordsArray;
@@ -536,6 +552,11 @@ btn16.onclick = function (event) {
 
 btn17.onclick = function (event) {
     wordsArray = unit17IrregularVerbs;
+    btnOnClick();
+}
+
+btn18.onclick = function (event) {
+    wordsArray = unit18Dispatcher;
     btnOnClick();
 }
 
