@@ -412,6 +412,10 @@ let unit18Dispatcher = [
     ['ставка (пропозиція)', 'bid'], ['пропозиція рейсу', 'tender'], ['прийняття', 'acceptance'], ['відмова', 'rejection'], ['претензія', 'claim'], ['нестача', 'shortage'], ['пошкодження', 'damage'], ['завищена оплата', 'overcharge'], ['коригування', 'adjustment'], ['повернення коштів', 'refund'], ['гарантія', 'guarantee']
 ];
 
+let unit19Words = [
+    ['робити внесок', 'contribute'], ['переважати', 'outweigh'], ['співчутливий', 'compassionate'], ['точність', 'precision'], ['мужність', 'courage'], ['залучати', 'engage'], ['незалежно від', 'regardless'], ['дивний', 'bizarre'], ['приголомшливий', 'overwhelming'], ['бажання', 'desire'], ['напруга', 'tension'], ['нести', 'carry'], ['внесок', 'contribution'], ['перешкода', 'an obstacle'], ['проникливий', 'perceptive'], ['принижувати', 'humiliate'], ['обачний', 'prudent'], ['замислений', 'pensive'], ['одержимо захоплюватися', 'obsess'], ['покладатися', 'rely'], ['залежність, опора', 'reliance'], ['переслідувати', 'pursue'], ['безрозсудний', 'reckless'], ['ясність', 'clarity'], ['чудово впорався', 'nailed it'], ['змінити напрямок', 'pivot'], ['величезний', 'immense']
+]
+
 
 
 let container = document.getElementById('container');
@@ -446,6 +450,7 @@ let btn15 = document.getElementById('btn15');
 let btn16 = document.getElementById('btn16');
 let btn17 = document.getElementById('btn17');
 let btn18 = document.getElementById('btn18');
+let btn19 = document.getElementById('btn19');
 
 
 let wordsArray;
@@ -571,6 +576,10 @@ btn18.onclick = function (event) {
     btnOnClick();
 }
 
+btn19.onclick = function (event) {
+    wordsArray = unit19Words;
+    btnOnClick();
+}
 
 let choose_lan_btn_ua = document.getElementById('choose_lan_btn_ua');
 let choose_lan_btn_en = document.getElementById('choose_lan_btn_en');
