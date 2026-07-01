@@ -398,22 +398,9 @@ let unit17IrregularVerbs = [
 ];
 
 
-let unit18Dispatcher = [
-    ['диспетчеризація', 'dispatch'], ['диспетчер', 'dispatcher'], ['перевізник', 'carrier'], ['вантажовідправник', 'shipper'], ['брокер', 'broker'], ['вантажоотримувач', 'consignee'], ['вантаж / рейс', 'load'], ['вантаж (товар)', 'freight'], ['відправлення', 'shipment'], ['доставка', 'delivery'], ['завантаження', 'pickup'], ['розвантаження', 'drop-off'], ['маршрут', 'route'], ['графік', 'schedule'], ['призначений час', 'appointment'], ['термінал', 'terminal'], ['склад', 'warehouse'], ['рампа', 'dock'], ["об'єкт / підприємство", 'facility'], ['коносамент / товарно-транспортна накладна', 'bill of lading (BOL – Bill of Lading)'], ['підтвердження ставки', 'rate confirmation'], ['рахунок-фактура', 'invoice'],
-    ['підтвердження доставки', 'proof of delivery (POD – Proof of Delivery)'], ['угода', 'agreement'], ['контракт', 'contract'], ['дозвіл', 'permit'], ['ліцензія', 'license'], ['страхування', 'insurance'], ['страховий поліс', 'policy'], ['додаткова умова', 'endorsement'], ['квитанція', 'receipt'], ['звіт про простій', 'detention report'], ['квитанція за розвантаження', 'lumper receipt'], ['талон з вагової', 'scale ticket'], ['звіт про перевірку', 'inspection report'], ['претензія', 'claim'], ['розрахунок / врегулювання', 'settlement'], ['звіт / виписка', 'statement'], ['підтвердження', 'confirmation'], ['орієнтовний час прибуття', 'ETA – Estimated Time of Arrival'], ['орієнтовний час відправлення', 'ETD – Estimated Time of Departure'], ['час у дорозі', 'transit time'],
-    ['порожній пробіг', 'deadhead'], ['вимушена стоянка', 'layover'], ['зворотний вантаж', 'backhaul'], ['напрямок перевезення', 'lane'], ['зупинка', 'stop'], ['кілька зупинок', 'multi-stop'], ['передача рейсу іншому водію', 'relay'], ['переміщення', 'reposition'], ['змінити маршрут', 'reroute'], ['відстеження', 'tracking'], ['GPS-навігація', 'GPS – Global Positioning System'], ['миля', 'mile'], ['відстань', 'distance'], ['кордон', 'border'], ['митниця', 'customs'], ['перевірка', 'inspection'], ['вагова станція', 'weigh station'], ['тентований причіп', 'dry van'], ['рефрижератор', 'reefer'], ['платформа', 'flatbed'], ['низькорамна платформа', 'step deck'], ['вантажівка з кузовом', 'box truck'], ['причіп', 'trailer'],
-
-    ['тягач', 'tractor'], ['сідельний тягач', 'semi-truck'], ['здвоєна вісь', 'tandem'], ['вісь', 'axle'], ['вантаж', 'cargo'], ['палета', 'pallet'], ['піддон', 'skid'], ['ящик', 'crate'], ['небезпечний вантаж', 'hazmat'], ['негабаритний', 'oversized'], ['перевантажений', 'overweight'], ['пломба', 'seal'], ['ремінь для кріплення', 'strap'], ['паливо', 'fuel'], ['паливна карта', 'fuel card'], ['техобслуговування', 'maintenance'], ['поломка', 'breakdown'], ['ремонт', 'repair'], ['шина', 'tire'], ['двигун', 'engine'], ['трансмісія', 'transmission'], ['холостий хід', 'idle'], ['платна дорога', 'toll'], ['паркування', 'parking'], ['зона відпочинку', 'rest area'], ['ваги', 'scale'],
-    ['штраф / квитанція', 'ticket'], ['порушення', 'violation'], ['штраф', 'citation'], ['штраф', 'fine'], ['інспекція', 'inspection'], ['аварія', 'accident'], ['інцидент', 'incident'], ['ставка', 'rate'], ['ставка за милю', 'RPM – Rate Per Mile'], ['оплата', 'payment'], ['депозит', 'deposit'], ['факторинг', 'factoring'], ['комісія', 'fee'], ['нарахування', 'charge'], ['додаткова оплата', 'accessorial'], ['простій', 'detention'], ['оплата простою', 'layover pay'], ['компенсація за скасований рейс', 'TONU – Truck Order Not Used'], ['фіксована сума', 'lump sum'], ['кредит / зарахування', 'credit'], ['дебет / списання', 'debit'], ['баланс', 'balance'], ['дохід', 'revenue'], ['витрати', 'expense'], ['прибуток', 'profit'], ['фінальний розрахунок', 'settlement'],
-    ['комісія', 'commission'], ['дзвінок', 'call'], ['оновлення інформації', 'update'], ['повідомляти', 'notify'], ['підтверджувати', 'confirm'], ['звітувати', 'report'], ['відповідати', 'respond'], ['запит', 'request'], ['схвалювати', 'approve'], ['відхиляти', 'decline'], ['вести переговори', 'negotiate'], ['уточнювати', 'clarify'], ['інформувати', 'inform'], ['нагадувати', 'remind'], ['передати керівництву', 'escalate'], ['нагадати повторно', 'follow up'], ["зв’язатися", 'check in'], ['очікування', 'hold'], ['переадресувати', 'transfer'], ['повідомлення', 'message'], ['призначати', 'assign'], ['бронювати', 'book'], ['скасовувати', 'cancel'], ['переносити', 'reschedule'], ['відправляти в рейс', 'dispatch'],
-
-    ['біржа вантажів', 'load board'], ['платформа DAT', 'DAT – Dial-A-Truck'], ['платформа Truckstop', 'truckstop'], ['доступний транспорт', 'capacity'], ['доступність', 'availability'], ['статус', 'status'], ['у дорозі', 'in transit'], ['доставлено', 'delivered'], ['завершено', 'completed'], ['в очікуванні', 'pending'], ['призупинено', 'on hold'], ['доступний', 'available'], ['недоступний', 'unavailable'], ['поломка', 'breakdown'], ['затримка', 'delay'], ['департамент транспорту США', 'DOT – Department of Transportation'], ['федеральна служба безпеки автоперевезень', 'FMCSA – Federal Motor Carrier Safety Administration'], ['відповідність вимогам', 'compliance'], ['правило / норма', 'regulation'], ['безпека', 'safety'], ['журнал водія', 'logbook'], ['електронний логбук', 'ELD – Electronic Logging Device'],
-    ['норми робочого часу', 'hours of service'], ['перевірка', 'audit'], ['ліцензійний дозвіл', 'authority'], ['номер перевізника', 'MC number – Motor Carrier number'], ['номер DOT', 'USDOT number – United States Department of Transportation number'], ['сертифікація', 'certification'], ['перевірка біографії', 'background check'], ['тест на наркотики', 'drug test'], ['відповідальність', 'liability'], ['страхове покриття', 'coverage'], ['пакет документів брокера', 'broker packet'], ['пакет документів перевізника', 'carrier packet'], ['підключення перевізника', 'onboarding'], ['реєстрація', 'setup'], ['закріплений маршрут', 'dedicated'], ['разовий вантаж', 'spot load'], ['контрактний вантаж', 'contract load'], ['ринок перевезень', 'freight market'], ['ринкова ставка', 'spot rate'],
-    ['ставка (пропозиція)', 'bid'], ['пропозиція рейсу', 'tender'], ['прийняття', 'acceptance'], ['відмова', 'rejection'], ['претензія', 'claim'], ['нестача', 'shortage'], ['пошкодження', 'damage'], ['завищена оплата', 'overcharge'], ['коригування', 'adjustment'], ['повернення коштів', 'refund'], ['гарантія', 'guarantee']
-];
-
-let unit19Words = [
-    ['робити внесок', 'contribute'], ['переважати', 'outweigh'], ['співчутливий', 'compassionate'], ['точність', 'precision'], ['мужність', 'courage'], ['залучати', 'engage'], ['незалежно від', 'regardless'], ['дивний', 'bizarre'], ['приголомшливий', 'overwhelming'], ['бажання', 'desire'], ['напруга', 'tension'], ['нести', 'carry'], ['внесок', 'contribution'], ['перешкода', 'an obstacle'], ['проникливий', 'perceptive'], ['принижувати', 'humiliate'], ['обачний', 'prudent'], ['замислений', 'pensive'], ['одержимо захоплюватися', 'obsess'], ['покладатися', 'rely'], ['залежність, опора', 'reliance'], ['переслідувати', 'pursue'], ['безрозсудний', 'reckless'], ['ясність', 'clarity'], ['чудово впорався', 'nailed it'], ['змінити напрямок', 'pivot'], ['величезний', 'immense']
+let unit18Words = [
+    ['робити внесок', 'contribute'], ['переважати', 'outweigh'], ['співчутливий', 'compassionate'], ['точність', 'precision'], ['мужність', 'courage'], ['залучати', 'engage'], ['незалежно від', 'regardless'], ['дивний', 'bizarre'], ['приголомшливий', 'overwhelming'], ['бажання', 'desire'], ['напруга', 'tension'], ['нести', 'carry'], ['внесок', 'contribution'], ['перешкода', 'an obstacle'], ['проникливий', 'perceptive'], ['принижувати', 'humiliate'], ['обачний', 'prudent'], ['замислений', 'pensive'], ['одержимо захоплюватися', 'obsess'], ['покладатися', 'rely'], ['залежність, опора', 'reliance'], ['переслідувати', 'pursue'], ['безрозсудний', 'reckless'], ['ясність', 'clarity'], ['чудово впорався', 'nailed it'], ['змінити напрямок', 'pivot'], ['величезний', 'immense'],
+    ['уламки', 'debris'], ['життєздатний', 'viable'], ['завершувати', 'wrap up'], ['упередженість', 'bias'], ['розвиватися', 'evolve'], ['випадковий', 'occasional'], ['ставлення', 'attitude'], ['жертва', 'sacrifice'], ['досягнення', 'accomplishment'], ['величезний', 'tremendous'], ['набувати', 'acquire'], ['посилений', 'reinforced'], ['яскравий', 'vivid'], ['ретельна перевірка', 'scrutiny'], ['вплив, дія (чогось)', 'exposure'], ['замінник', 'substitute'], ['запонка', 'cufflink'], ['керувати', 'steer'], ['ретельний', 'meticulous'], ['вузький', 'narrow'], ['забороняти', 'prohibit']
 ]
 
 
@@ -450,7 +437,6 @@ let btn15 = document.getElementById('btn15');
 let btn16 = document.getElementById('btn16');
 let btn17 = document.getElementById('btn17');
 let btn18 = document.getElementById('btn18');
-let btn19 = document.getElementById('btn19');
 
 
 let wordsArray;
@@ -572,12 +558,7 @@ btn17.onclick = function (event) {
 }
 
 btn18.onclick = function (event) {
-    wordsArray = unit18Dispatcher;
-    btnOnClick();
-}
-
-btn19.onclick = function (event) {
-    wordsArray = unit19Words;
+    wordsArray = unit18Words;
     btnOnClick();
 }
 
